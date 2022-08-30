@@ -1,0 +1,29 @@
+.inside-msg{
+    width: 50%;
+    background-color:yellow;
+    border-radius: 0.6vmax;
+    padding: 1vmax;
+    /* margin: 1vmax; */
+    margin-left: 15px;
+    margin-top: 1vmax;
+    margin-bottom: 0.6vmax;
+    display: inline-block;
+    margin-right: 17px;
+    font-size: 1.2vmax;
+    clear: both;
+    /* height: 0.vmax; */
+    /* justify-content: center; */
+}
+.right{
+    float: right;
+    background-color:#868182;
+    color: black;
+    text-align: left;
+    /* padding: 20px; */
+}
+.left{
+    float: left;
+    background-color: rgb(115 122 127 / 91%);
+    color: white;
+    text-align: left;
+}

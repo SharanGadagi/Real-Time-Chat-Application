@@ -1,0 +1,380 @@
+*{
+  padding: 0;margin: 0;
+}
+/* @media (max-aspect-ratio:7/10) { */
+  @media screen and (max-width: 700px), 
+       screen and (max-height: 900px) {
+  .join-container{
+    margin-top: 20vw !important;
+    width: 100% !important;
+}
+.join-container > img{
+  
+  width: 35vw !important;
+}
+.join-container > h1{
+
+  color: rgb(61, 54, 70) !important;
+  font-size: 9vw !important;
+  width: 65vw !important;
+
+  text-shadow: 5px 1px  rgb(206, 204, 199) !important;
+  
+  
+}
+#personName{
+
+  width: 58vw !important;
+  height: 11vw !important;
+
+  font-size: 37px !important;
+
+  text-align: center !important;
+  border-radius: 20px !important;
+  margin-top: 30px !important;
+  margin-bottom: 25px;
+  background-color:rgb(193, 182, 160) !important;
+  color: rgb(35, 33, 33);
+ 
+}
+
+#personName:hover{
+ 
+  background-color:rgba(215, 223, 250, 0.795) !important;
+  color: rgb(35, 33, 33) !important;
+
+}
+
+#login{
+  width:47vw !important;
+  height:12vw !important ;
+  box-sizing: border-box;
+
+  border-radius: 10vw !important;
+  font-size: 45px !important;
+  text-shadow: 10px 8px  6px   black !important;
+
+}
+#login:hover{
+  background-color: rgb(173, 189, 72) !important;
+  box-shadow:   0px 8px 8px  
+  4px #0b0b0b !important;
+  color: black !important;
+  text-shadow: 3px 5px  5px rgb(211, 208, 208) !important;
+  
+}
+
+
+
+.chating-container{
+  width: 100%!important;
+  height: 100%!important;
+  margin-bottom: 4vw !important;
+
+}
+.header{
+  background-color: rgb(173, 193, 202) !important;
+  height: 12% !important;
+  
+
+}
+.header >h2{
+  padding-top: 1px;
+  font-size: 6.6vw !important;
+
+  text-shadow: 6px 5px  5px white !important;
+}
+h2 >img{
+  width: 12.9vw !important;
+  
+  filter: brightness(20%) !important;
+  margin-top: 1px !important;
+}
+.closeIcon{
+  width: 6.8vw !important;
+  filter: brightness(470%);
+
+  margin: 3.7vw !important ;
+  transition: all 0.4s linear !important;
+}
+.closeIcon:hover{
+ 
+  transform: scale(1.2) !important;
+  filter: brightness(100) !important;
+  
+  
+}
+
+.chating-box{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 77% !important;
+ 
+} 
+.msg-box{
+  height: 11% !important;
+ 
+  box-sizing: border-box !important;
+  display: flex !important;
+
+}
+#write-messages{
+  width: 80% !important;
+  color: rgb(11, 11, 10);
+   box-sizing: border-box !important;
+
+  font-size: 30px !important;
+
+}
+.send-btn{
+  background-color: rgb(213, 197, 19) !important;
+  width: 22% !important;
+  height: auto!important;
+
+  box-sizing: border-box;
+ 
+  font-size: 25px;
+
+  transition: all 0.1s linear;
+}
+.send-btn:hover{
+  background-color: yellow !important;
+  transition: all 0.2s linear !important;
+
+}
+.send-btn > img{
+  width:11vw !important;
+  
+  margin:1vw !important; 
+  transition: all 0.2s linear ;
+ filter: brightness(200%) drop-shadow(10px 10px 20px rgb(241, 240, 240)) ;
+}
+.send-btn > img:hover{
+  
+  width: 14vw !important;
+  transform: translatex(9px) !important;
+}
+
+
+.inside-msg{
+  width: 64% !important;
+
+  border-radius: 1.8vw !important;
+  padding: 2.6vw !important;
+ 
+  margin-left: 12px !important;
+  margin-top: 3.6vw !important;
+  margin-bottom: 2.8vw !important;
+  display: inline-block;
+  margin-right: 14px !important;
+  font-size: 4.4vw !important;
+  clear: both;
+ 
+}
+.right{
+  float: right;
+  background-color:#a49b9c !important;
+  color: black;
+  text-align: left;
+  
+}
+.left{
+  float: left;
+  background-color: rgba(99, 99, 103, 0.91) !important;
+  color: white;
+  text-align: left;
+}
+
+
+}
+/* 2nd responsive */
+
+@media screen and (max-width: 500px), 
+screen and (max-height: 500px) {
+.join-container{
+margin-top: 1vw !important;
+width: 100% !important;
+}
+.join-container > img{
+
+width: 30vw !important;
+}
+.join-container > h1{
+
+color: rgb(61, 54, 70) !important;
+font-size: 9vw !important;
+width: 65vw !important;
+
+text-shadow: 5px 1px  rgb(206, 204, 199) !important;
+
+
+}
+#personName{
+
+width: 58vw !important;
+height: 11vw !important;
+
+font-size: 37px !important;
+
+text-align: center !important;
+border-radius: 20px !important;
+margin-top: 30px !important;
+margin-bottom: 25px;
+background-color:rgb(193, 182, 160) !important;
+color: rgb(35, 33, 33);
+
+}
+
+#personName:hover{
+
+background-color:rgba(215, 223, 250, 0.795) !important;
+color: rgb(35, 33, 33) !important;
+
+}
+
+#login{
+width:47vw !important;
+height:12vw !important ;
+box-sizing: border-box !important;
+/* margin-bottom: 5vw !important; */
+padding-bottom: 1vmax !important;
+border-radius: 10vw !important;
+font-size: 45px !important;
+text-shadow: 10px 8px  6px   black !important;
+
+}
+#login:hover{
+background-color: rgb(173, 189, 72) !important;
+box-shadow:   0px 8px 8px  
+4px #0b0b0b !important;
+color: black !important;
+text-shadow: 3px 5px  5px rgb(211, 208, 208) !important;
+
+}
+
+
+
+.chating-container{
+width: 100%!important;
+height: 100%!important;
+margin-bottom: 4vw !important;
+
+}
+.header{
+background-color: rgb(173, 193, 202) !important;
+height: 12% !important;
+
+
+}
+.header >h2{
+padding-top: 1px;
+font-size: 6.6vw !important;
+
+text-shadow: 6px 5px  5px white !important;
+}
+h2 >img{
+width: 12.9vw !important;
+
+filter: brightness(20%) !important;
+margin-top: 1px !important;
+}
+.closeIcon{
+width: 6.8vw !important;
+filter: brightness(470%);
+
+margin: 3.7vw !important ;
+transition: all 0.4s linear !important;
+}
+.closeIcon:hover{
+
+transform: scale(1.2) !important;
+filter: brightness(100) !important;
+
+
+}
+
+.chating-box{
+
+background-repeat: no-repeat;
+background-size: cover;
+height: 77% !important;
+
+} 
+.msg-box{
+height: 11% !important;
+
+box-sizing: border-box !important;
+display: flex !important;
+
+}
+#write-messages{
+width: 80% !important;
+color: rgb(11, 11, 10);
+box-sizing: border-box !important;
+
+font-size: 20px !important;
+
+}
+.send-btn{
+background-color: rgb(213, 197, 19) !important;
+width: 22% !important;
+height: auto!important;
+
+box-sizing: border-box;
+
+font-size: 25px;
+
+transition: all 0.1s linear;
+}
+.send-btn:hover{
+background-color: yellow !important;
+transition: all 0.2s linear !important;
+
+}
+.send-btn > img{
+width:11vw !important;
+
+margin:0.6vw !important; 
+transition: all 0.2s linear ;
+filter: brightness(200%) drop-shadow(10px 10px 20px rgb(241, 240, 240)) ;
+}
+.send-btn > img:hover{
+
+width: 14vw !important;
+transform: translatex(9px) !important;
+}
+
+
+.inside-msg{
+width: 64% !important;
+
+border-radius: 1.8vw !important;
+padding: 2.6vw !important;
+
+margin-left: 12px !important;
+margin-top: 3.6vw !important;
+margin-bottom: 2.8vw !important;
+display: inline-block;
+margin-right: 14px !important;
+font-size: 4.4vw !important;
+clear: both;
+
+}
+.right{
+float: right;
+background-color:#a49b9c !important;
+color: black;
+text-align: left;
+
+}
+.left{
+float: left;
+background-color: rgba(99, 99, 103, 0.91) !important;
+color: white;
+text-align: left;
+}
+
+
+}
+

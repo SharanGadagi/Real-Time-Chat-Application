@@ -1,0 +1,128 @@
+.chating-page{
+    background-image: url('./img/2.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.chating-container{
+    width: 45%;
+    height: 75%;
+    background-color: aliceblue;
+    border-radius: 20px ;
+    /* border: 2px solid rgb(19, 19, 11);  */
+    /* box-sizing: border-box;*/
+}
+.header{
+    background-color: rgb(148 159 164);
+    height: 14%;
+    /* font-size: 1.2vmax; */
+   text-align: center;
+   
+   
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    /* border-bottom: 2px solid black;*/
+    border-radius: 20px 20px 0px 0px; 
+    /* background-image: url('./img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header >h2{
+    padding-top: 1px;
+    font-size: 2.8vmax;
+    font-weight: bold;
+    text-shadow: 10px 5px  5px white;
+}
+h2 >img{
+    width: 5vmax;
+    
+    filter: brightness(50%);
+    margin-top: 2px;
+}
+.closeIcon{
+    width: 1.8vmax;
+    filter: brightness(470%);
+    cursor: pointer;
+    margin: 1.8vmax ;
+    transition: all 0.4s linear;
+}
+.closeIcon:hover{
+    /* width:2.2vmax; */
+    transform: scale(1.2);
+    filter: brightness(100);
+    
+    
+}
+.chating-box{
+
+    /* background-size: 45vmax;  */
+    background-image: url('./img/bgchat1.jpg');
+    /* background-color: rgb(64 63 59 / 97%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 74%;
+    /* border:0.2vmax solid black; */
+    box-sizing: border-box;
+    background-attachment:local ;
+}
+.msg-box{
+    height: 12%;
+    /* border:0.2vmax solid black; */
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    display: flex;
+      border-radius: 0px 0px 0px 20px;
+}
+#write-messages{
+    width: 85%;
+    color: rgb(11, 11, 10);
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: rgb(246, 246, 240);
+    border-radius: 0px 0px 0px 20px;
+    font-size: 25px;
+    padding: 20px;
+    border-top: 2px solid rgb(99, 97, 97);
+}
+.send-btn{
+    background-color: rgb(213, 197, 19);
+    width: 18%;
+    /* border-radius: 8px; */
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px 10px 20px 12px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.send-btn:hover{
+    background-color: yellow;
+    transition: all 0.2s linear;
+
+}
+.send-btn > img{
+    width:3.6vmax;
+    
+    margin:0.1vmax 8vmax 4vmax 2.5vmax; 
+    transition: all 0.2s linear ;
+   filter: brightness(200%) drop-shadow(10px 10px 20px rgb(241, 240, 240)) ;
+}
+.send-btn > img:hover{
+    
+    width: 4vmax;
+    transform: translatex(8px);
+}
+
+
